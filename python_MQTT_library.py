@@ -1,3 +1,9 @@
+##Start mosquitto: /opt/homebrew/opt/mosquitto/sbin/mosquitto -v
+##See if its connected: lsof -i :1883
+##  kill 64340
+####Check if its connected: lsof -1 :1883
+
+
 import paho.mqtt.client as mqtt
 import json
 
